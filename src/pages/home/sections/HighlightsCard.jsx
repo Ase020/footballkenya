@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import { mozzartBet } from "../../../assets";
 
 const HighlightsCard = () => {
   return (
-    <div
+    <Link
+      to="/"
       className="w-full h-full bg-cover bg-no-repeat flex items-end justify-center px-8 pb-8 rounded-2xl"
       style={{
         backgroundImage: `url(${mozzartBet})`,
@@ -12,7 +14,7 @@ const HighlightsCard = () => {
         HighlightsCard HighlightsCard HighlightsCard HighlightsCard
         HighlightsCard
       </h3>
-    </div>
+    </Link>
   );
 };
 
