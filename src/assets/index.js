@@ -7,3 +7,4 @@ export { default as nsl } from "./home/nsl.svg";
 export { default as pl } from "./home/pl.svg";
 export { default as wcup } from "./home/wcup.svg";
 export { default as wpl } from "./home/wpl.svg";
+export { default as gor } from "./home/gor.svg";

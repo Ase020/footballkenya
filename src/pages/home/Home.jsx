@@ -1,4 +1,10 @@
-import { FeaturedNews, HighlightOfTheDay, Leagues } from "./sections";
+import {
+  Banner,
+  FeaturedNews,
+  HighlightOfTheDay,
+  Leagues,
+  Table,
+} from "./sections";
 
 function Home() {
   return (
@@ -6,6 +12,8 @@ function Home() {
       <Leagues />
       <HighlightOfTheDay />
       <FeaturedNews />
+      <Banner />
+      <Table />
     </section>
   );
 }
