@@ -1,5 +1,12 @@
+import { HighlightOfTheDay, Leagues } from "./sections";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <section className="max-width">
+      <Leagues />
+      <HighlightOfTheDay />
+    </section>
+  );
 }
 
 export default Home;
