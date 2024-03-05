@@ -1,6 +1,7 @@
 import {
   Banner,
   FeaturedNews,
+  Hero,
   HighlightOfTheDay,
   Leagues,
   Table,
@@ -9,6 +10,7 @@ import {
 function Home() {
   return (
     <section className="max-width">
+      <Hero />
       <Leagues />
       <HighlightOfTheDay />
       <FeaturedNews />
