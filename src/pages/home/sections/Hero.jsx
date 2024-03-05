@@ -9,6 +9,10 @@ const Hero = () => {
       nextArrow={() => {}}
       autoplay
       autoplayDelay={5000}
+      transition={{
+        type: "spring",
+        duration: 1,
+      }}
       loop
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="absolute bottom-6 sm:bottom-12 md:bottom-44 left-2/4 z-50 flex -translate-x-2/4 gap-2">
