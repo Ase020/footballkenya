@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {/* mobile nav */}
       <nav
-        className="absolute top-20 left-0 bg-white h-[calc(100vh-80px)] w-screen flex-center text-center px-2 flex-col gap-12 text-3xl"
+        className="absolute top-20 left-0 bg-white h-[calc(100vh-80px)] w-screen flex-center text-center px-2 flex-col gap-12 text-3xl z-[999]"
         style={isOpen ? { display: "flex" } : { display: "none" }}
       >
         <Link
