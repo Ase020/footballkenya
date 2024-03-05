@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <Carousel
       className="w-full h-96 md:h-[680px]"
-      prevArrow={false}
-      nextArrow={false}
+      prevArrow={() => {}}
+      nextArrow={() => {}}
       autoplay
       autoplayDelay={5000}
       loop
